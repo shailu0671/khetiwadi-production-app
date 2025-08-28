@@ -15,7 +15,7 @@ export default function MandiScreen({ navigation }) {
             const data = await getMandiList();
             setMandis(Array.isArray(data) ? data : [data]); // handles both array and single object
         } catch (error) {
-            console.log(error);
+            // console.log(error);
         } finally {
             setLoading(false);
         }
@@ -31,7 +31,7 @@ export default function MandiScreen({ navigation }) {
                 renderItem={({ item }) => (
                     <TouchableOpacity
                         style={styles.card}
-                        onPress={() => navigation.navigate("MandiDetail", { mandi: item })}
+                        onPress={() => navigation.navigate("Mandi Detail", { mandi: item })}
                     >
                         {item.image ? (
                             <Image

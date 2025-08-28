@@ -15,7 +15,7 @@ export default function CropScreen({ navigation }) {
             const data = await getCropList();
             setMandis(Array.isArray(data) ? data : [data]); // handles both array and single object
         } catch (error) {
-            console.log(error);
+            // console.log(error);
         } finally {
             setLoading(false);
         }
