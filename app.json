@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "khetiwadi-production-app",
+    "name": "khetiwadi",
     "slug": "KhetiwadiMandiBhav",
     "scheme": "khetiwadimandibhav",
-    "version": "3.0.0",
+    "version": "3.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -29,8 +29,8 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "versionCode": 26,
-      "compileSdkVersion": 34,
+      "versionCode": 27,
+      "compileSdkVersion": 35,
       "targetSdkVersion": 35,
       "buildToolsVersion": "35.0.0"
     },

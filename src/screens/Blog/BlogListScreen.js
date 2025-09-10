@@ -13,7 +13,7 @@ export default function BlogScreen({ navigation }) {
     const fetchBlogs = async () => {
         try {
             const data = await getBlogList();
-            setBlogs(Array.isArray(data) ? data : [data]); // handles both array and single object
+            setBlogs(Array.isArray(data) ? data : [data]); 
         } catch (error) {
             // console.log(error);
         } finally {
